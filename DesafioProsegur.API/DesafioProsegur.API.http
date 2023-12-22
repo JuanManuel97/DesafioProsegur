@@ -1,0 +1,6 @@
+@DesafioProsegur.API_HostAddress = http://localhost:5147
+
+GET {{DesafioProsegur.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
