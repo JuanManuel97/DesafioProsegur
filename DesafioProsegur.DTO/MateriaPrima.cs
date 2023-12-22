@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DesafioProsegur.DTO
+{
+    public class MateriaPrima
+    {
+        [Key]
+        public int IdMateriaPrima { get; set; }
+        public string Descripcion { get; set; }
+        public decimal Cantidad { get; set; } = 0;
+        public string DescripcionCantidad { get; set; }
+        public decimal Precio { get; set; } = 0;
+
+        public ICollection<ProductoMateriaPrima> ProductoMateriaPrimas { get; set; }
+    }
+}
