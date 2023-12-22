@@ -25,7 +25,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DesafioProsegur.DTO\DesafioProsegur.Schema.csproj" />
     <ProjectReference Include="..\DesafioProsegur.Infrastructure\DesafioProsegur.Infrastructure.csproj" />
   </ItemGroup>
 

@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DesafioProsegur.DTO\DesafioProsegur.Schema.csproj" />
+    <ProjectReference Include="..\DesafioProsegur.Schema\DesafioProsegur.Schema.csproj" />
   </ItemGroup>
 
 </Project>
