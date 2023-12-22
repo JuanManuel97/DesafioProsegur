@@ -24,4 +24,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DesafioProsegur.DTO\DesafioProsegur.Schema.csproj" />
+    <ProjectReference Include="..\DesafioProsegur.Infrastructure\DesafioProsegur.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
