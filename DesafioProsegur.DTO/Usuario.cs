@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace DesafioProsegur.DTO
+namespace DesafioProsegur.Schema
 {
     public class Usuario
     {

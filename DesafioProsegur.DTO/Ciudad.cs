@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace DesafioProsegur.DTO
+namespace DesafioProsegur.Schema
 {
     public class Ciudad
     {

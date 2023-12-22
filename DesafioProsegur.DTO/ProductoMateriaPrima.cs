@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace DesafioProsegur.DTO
+namespace DesafioProsegur.Schema
 {
     public class ProductoMateriaPrima
     {
